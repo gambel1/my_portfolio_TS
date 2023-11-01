@@ -1,0 +1,116 @@
+.backdrop {
+  position: fixed;
+  overflow: scroll;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  opacity: 1;
+}
+@media screen and (min-width: 768px) {
+  .backdrop {
+    display: none;
+  }
+}
+
+.modal {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: 609px;
+  padding: 40px;
+
+  background-color: var(--background-black-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+@media screen and (min-width: 768px) {
+  .modal {
+    display: none;
+  }
+}
+
+.modalButton {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  border: none;
+  cursor: pointer;
+  fill: var(--color-white);
+  stroke: rgba(255, 255, 255, 0.6);
+  background-color: var(--background-black-color);
+}
+.modalButton:hover,
+.modalButton:focus,
+.modalButton:active {
+  fill: var(--color-yellow);
+  stroke: var(--color-yellow);
+  box-shadow: none;
+}
+
+.modalTitle{
+  font-family: var(--Poppins);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 30px;
+  color: var(--color-white);
+}
+
+/* Icons */
+
+.modalWrapList {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.modalWrapLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+
+  fill: var(--color-grey);
+  stroke: var(--color-grey);
+  border-radius: 50%;
+}
+.modalWrapLink:hover,
+:focus {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  fill: var(--color-white);
+  stroke: var(--color-white);
+  outline: none;
+}
+
+/* Button_cv */
+
+.modalWrapButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+
+  gap: 5px;
+  padding: 10px 15px;
+  margin-left: auto;
+  margin-right: auto;
+
+  border-radius: 5px;
+  border: none;
+  color: var(--background-black-color);
+  background-color: var(--color-grey);
+}
+.modalWrapButton:hover,
+.modalWrapButton:focus {
+  fill: var(--color-white);
+  stroke: var(--color-white);
+  color: var(--color-white);
+}

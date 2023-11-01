@@ -1,0 +1,119 @@
+@import-normalize;
+
+@font-face {
+  font-family: 'PermanentMarker';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PermanentMarker'),
+    url('./fonts//permanentMarker/PermanentMarker-Regular.ttf')
+      format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Poppins'),
+    url('./fonts/poppins/Poppins-Regular.ttf') format('truetype');
+}
+
+:root {
+  /* font styles */
+  --PermanentMarker: 'PermanentMarker', sans-serif;
+  --Poppins: 'Poppins', sans-serif;
+
+  /* colors */
+  --background-black-color: #111;
+  --color-white: #fff;
+  --color-yellow: #ffb800;
+  --color-active: green;
+  --input-color: rgba(255, 255, 255, 0.25);
+  --secondary-color: rgba(0, 0, 0, 0.5);
+  --color-grey: grey;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  /* width: 100%; */
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px;
+}
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .container {
+    width: 1440px;
+  }
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* swiper styles */
+
+.swiper-button-prev {
+  width: 60px;
+  height: 60px;
+  background-color: rgba(128, 128, 128, 0.5);
+  color: var(--color-yellow);
+  border-radius: 50%;
+}
+
+.swiper-button-next {
+  width: 60px;
+  height: 60px;
+  background-color: rgba(128, 128, 128, 0.5);
+  color: var(--color-yellow);
+  border-radius: 50%;
+}
