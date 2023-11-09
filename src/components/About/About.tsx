@@ -68,6 +68,12 @@ export default function About() {
               </li>
               <li className={css.aboutSkillsList}>
                 <svg className={css.aboutSkillsIcon}>
+                  <use href={sprite + '#icon-typescript'}></use>
+                </svg>
+                TypeScript
+              </li>
+              <li className={css.aboutSkillsList}>
+                <svg className={css.aboutSkillsIcon}>
                   <use href={sprite + '#icon-nodejs'}></use>
                 </svg>
                 Node.js
