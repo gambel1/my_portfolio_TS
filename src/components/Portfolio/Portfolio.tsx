@@ -66,7 +66,7 @@ export default function Portfolio() {
 
           <SwiperSlide>
             <a
-              href="https://gambel1.github.io/goit-react-hw-05-movies/"
+              href="https://gambel1.github.io/moviesApp_TS/"
               target="_blank"
               rel="noreferrer noopener"
             >
@@ -113,7 +113,7 @@ export default function Portfolio() {
           </SwiperSlide>
           <SwiperSlide>
             <a
-              href="https://gambel1.github.io/my_portfolio/"
+              href="https://gambel1.github.io/my_portfolio_TS/"
               target="_blank"
               rel="noreferrer noopener"
             >
