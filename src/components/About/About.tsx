@@ -36,6 +36,7 @@ export default function About() {
                 to improve your skills and grow in the field of web development.
                 My goal is to gain more experience, work on more complex
                 projects and continue to learn.
+                <br /> <b>I know that I know nothing (c) Socrates</b>
               </p>
             </div>
           </div>

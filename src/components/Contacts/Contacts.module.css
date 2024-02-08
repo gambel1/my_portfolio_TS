@@ -34,18 +34,22 @@
   }
 }
 
-/* list */
+/* address */
 
-.listBox:not(:last-child) {
+.address{
+  font-style: normal;
+}
+
+.addressBox:not(:last-child) {
   margin-bottom: 20px;
 }
 @media screen and (min-width: 1440px) {
-  .listBox:not(:last-child) {
+  .addressBox:not(:last-child) {
     margin-bottom: 30px;
   }
 }
 
-.listSubtitle {
+.addressSubtitle {
   font-family: var(--Poppins);
   font-size: 16px;
   line-height: normal;
@@ -54,13 +58,13 @@
   color: var(--color-white);
 }
 @media screen and (min-width: 1440px) {
-  .listSubtitle {
+  .addressSubtitle {
     font-size: 20px;
     margin-bottom: 10px;
   }
 }
 
-.listItem {
+.addressItem {
   font-family: var(--Poppins);
   font-size: 14px;
   line-height: normal;
@@ -70,12 +74,12 @@
   fill: var(--color-white);
 }
 @media screen and (min-width: 1440px) {
-  .listItem {
+  .addressItem {
     font-size: 16px;
   }
 }
 
-.listLink {
+.addressLink {
   font-family: var(--Poppins);
   font-size: 14px;
   line-height: normal;
@@ -87,12 +91,12 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .listLink {
+  .addressLink {
     font-size: 16px;
   }
 }
-.listLink:hover,
-.listLink:focus {
+.addressLink:hover,
+.addressLink:focus {
   color: var(--color-yellow);
   fill: var(--color-yellow);
   stroke: none;
