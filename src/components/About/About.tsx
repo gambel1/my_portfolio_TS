@@ -31,11 +31,11 @@ export default function About() {
             <div className={css.aboutWrapBox}>
               <h2 className={css.aboutWrapBoxTitle}>Alexey Potapenko</h2>
               <p className={css.aboutWrapBoxItem}>
-                Junior Full Stack Developer interested in developing both
-                front-end and back-end software. The main feature is the desire
-                to improve your skills and grow in the field of web development.
-                My goal is to gain more experience, work on more complex
-                projects and continue to learn.
+                Let me introduce myself. I'm a developer interested in
+                developing both front-end and back-end software. The main
+                feature is the desire to improve your skills and grow in the
+                field of web development. My goal is to gain more experience,
+                work on more complex projects and continue to learn.
                 <br /> <b>I know that I know nothing (c) Socrates</b>
               </p>
             </div>

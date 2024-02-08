@@ -11,7 +11,7 @@ function Home() {
     <section id="sectionHome" className={css.home}>
       <div className="container">
         <div className={css.homeWrap}>
-          <p className={css.homeWrapItem}>Full-Stack developer</p>
+          <p className={css.homeWrapItem}>Front-End developer</p>
 
           <div>
             <picture>
@@ -35,7 +35,7 @@ function Home() {
           </div>
           <h1 className={css.homeWrapTitle}>Alexey Potapenko</h1>
           <p className={css.homeWrapSubtitle}>
-            I am a Junior Full-Stack developer
+            I am a Junior Front-End developer
           </p>
           <ul className={css.homeWrapList}>
             <li>
