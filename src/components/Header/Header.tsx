@@ -4,6 +4,7 @@ import Modal from '../Modal/Modal';
 import sprite from '../../images/sprite.svg';
 import { navLinks } from '../NavMenu';
 import { useState } from 'react';
+import { useState } from 'react';
 
 interface IHeaderProps {
   click: () => void;
